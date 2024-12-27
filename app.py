@@ -9,9 +9,9 @@ load_dotenv()
 
 
 
-os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
-os.environ['LANGCHAIN_PROJECT'] = os.getenv('LANGCHAIN_PROJECT')
-os.environ['LANGCHAIN_TRAICING_V2'] = 'true'
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT")
+os.environ["LANGCHAIN_TRAICING_V2"] = "true"
 
 prompt = ChatPromptTemplate.from_messages(
     [
