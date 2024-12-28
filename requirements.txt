@@ -1,5 +1,5 @@
 langchain
-dotenv
+python-dotenv
 langchain-openai
 beautifulsoup4
 langchain_community
